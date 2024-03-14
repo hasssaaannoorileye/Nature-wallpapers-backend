@@ -2948,7 +2948,7 @@ router.get("/wallpapers", (req, res) => {
     res.json(wallpapers)
 })
    
-router.get("/naturewallpapers", paginatedResults(wallpapers), (req, res) => {
+router.get("/wallpapers", paginatedResults(wallpapers), (req, res) => {
     res.json(res.paginatedResults)
 });
 
