@@ -2944,7 +2944,7 @@ const wallpapers = [
 ]
 
 
-router.get("/wallpapers", (req, res) => {
+router.get("/allwallpapers", (req, res) => {
     res.json(wallpapers)
 })
    
