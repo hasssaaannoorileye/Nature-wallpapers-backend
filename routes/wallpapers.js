@@ -31,14 +31,14 @@ function paginatedResults(model) {
 const wallpapers = [
     {
       "thumb": "https://w.forfun.com/fetch/3d/3ddf91c0c197f64c4c4cbfe70fe7d618.jpeg?h=900&r=0.5",
-       "full": "https://w.forfun.com/fetch/3d/3ddf91c0c197f64c4c4cbfe70fe7d618.jpeg",
+       "full": "https://w.forfun.com/fetch/3d/3ddf91c0c197f64c4c4cbfe70fe7d618.jpeg?h=900&r=0.5",
        "lic": "wallpaper.mob",
        "pg": "https://wallpaper.mob.org/image/nature-gori-ozero-trava-nebo-leto-torres_del-paine-chili-patagoniya-145070.html",
        "tags": "Patagonia, Sky, Mountains, Summer, Nature, Torres Del Pine, Torres Del Paine, Chile, Lake, Grass"
     },
     {
       "thumb": "https://w.forfun.com/fetch/80/80f52316e6d41fcf501317187194afc3.jpeg?h=900&r=0.5",
-       "full": "https://w.forfun.com/fetch/80/80f52316e6d41fcf501317187194afc3.jpeg",
+       "full": "https://w.forfun.com/fetch/80/80f52316e6d41fcf501317187194afc3.jpeg?h=900&r=0.5",
        "lic": "wallpaper.mob",
        "pg": "https://wallpaper.mob.org/image/nature-gori-tropinka-tsveti-trava-peizazh-70462.html",
        "tags": " Mountains, Landscape, Path, Nature, Grass, Flowers"
@@ -52,70 +52,70 @@ const wallpapers = [
     },
     {
       "thumb": "https://w.forfun.com/fetch/44/44219d7effa8122af77b0594a556b3fc.jpeg?h=900&r=0.5",
-       "full": "https://w.forfun.com/fetch/44/44219d7effa8122af77b0594a556b3fc.jpeg",
+       "full": "https://w.forfun.com/fetch/44/44219d7effa8122af77b0594a556b3fc.jpeg?h=900&r=0.5",
        "lic": "wallpaper.mob",
        "pg": "https://wallpaper.mob.org/image/nature-italiya-gori-skali-oblaka-dolomiti-149530.html",
        "tags": "Dolomites, Rocks, Mountains, Clouds, Nature, Italy popular"
     },
     {
       "thumb": "https://w.forfun.com/fetch/da/da78ab9415497e4a57e8d43fe9303a3a.jpeg?h=900&r=0.5",
-       "full": "https://w.forfun.com/fetch/da/da78ab9415497e4a57e8d43fe9303a3a.jpeg",
+       "full": "https://w.forfun.com/fetch/da/da78ab9415497e4a57e8d43fe9303a3a.jpeg?h=900&r=0.5",
        "lic": "wallpaper.mob",
        "pg": "https://wallpaper.mob.org/image/nature-severnoe_siyanie-avrora-gori-ozero-noch-siyanie-127620.html",
        "tags": "Aurora Borealis, Northern Lights, Nature, Aurora, Shining, Night, Lake, Mountains"
     },
     {
       "thumb": "https://images.pexels.com/photos/326231/pexels-photo-326231.jpeg?auto=compress&cs=tinysrgb&w=600",
-       "full": "https://images.pexels.com/photos/326231/pexels-photo-326231.jpeg",
+       "full": "https://images.pexels.com/photos/326231/pexels-photo-326231.jpeg?h=900&r=0.5",
        "lic": "pexels",
        "pg": "https://www.pexels.com/photo/scenic-view-of-lake-in-forest-326231/",
        "tags": "Daylight Environment Fall Pictures Forest Lake Landscape Images Mountain Nature Nature Background Nature Wallpaper Outdoors Park Photos Park Background Park Wallpaper Pine Placid Reflections River Rock Scenic Summer Travel Photos Trees Water Woods"
     },
     {
       "thumb": "https://w.forfun.com/fetch/ef/ef615e861593394e61aab02d5c32d107.jpeg?h=900&r=0.5",
-       "full": "https://w.forfun.com/fetch/ef/ef615e861593394e61aab02d5c32d107.jpeg",
+       "full": "https://w.forfun.com/fetch/ef/ef615e861593394e61aab02d5c32d107.jpeg?h=900&r=0.5",
        "lic": "wallpaper.mob",
        "pg": "https://wallpaper.mob.org/image/nature-gori-noch-nebo-doroga-izgibi-temnota-70463.html",
        "tags": "Mountains, Darkness, Bends, Sky, Night, Road, Nature"
     },
     {
       "thumb": "https://w.forfun.com/fetch/c7/c7ac671539f9fd9854224d857042e1b9.jpeg?h=900&r=0.5",
-       "full": "https://w.forfun.com/fetch/c7/c7ac671539f9fd9854224d857042e1b9.jpeg",
+       "full": "https://w.forfun.com/fetch/c7/c7ac671539f9fd9854224d857042e1b9.jpeg?h=900&r=0.5",
        "lic": "wallpaper.mob",
        "pg": "https://wallpaper.mob.org/image/nature-norvegiya-dolina-zima-gori-69651.html",
        "tags": " Valley, Nature, Mountains, Winter, Norway  sunset"
     },
     {
       "thumb": "https://w.forfun.com/fetch/89/89041c78d3e41adfaf8b78afb578b70b.jpeg?h=900&r=0.5",
-       "full": "https://w.forfun.com/fetch/89/89041c78d3e41adfaf8b78afb578b70b.jpeg",
+       "full": "https://w.forfun.com/fetch/89/89041c78d3e41adfaf8b78afb578b70b.jpeg?h=900&r=0.5",
        "lic": "wallpaper.mob",
        "pg": "https://wallpaper.mob.org/image/earth-mount_fitz_roy-argentina-mountain-patagonia-road-sunset-355022.html",
        "tags": "Patagonia, Argentina, Mountains, Road, Mountain, Earth, Sunset"
     },
     {
       "thumb": "https://w.forfun.com/fetch/48/480d333249466d72f3429e3a2a8ddc6f.jpeg?h=900&r=0.5",
-       "full": "https://w.forfun.com/fetch/48/480d333249466d72f3429e3a2a8ddc6f.jpeg",
+       "full": "https://w.forfun.com/fetch/48/480d333249466d72f3429e3a2a8ddc6f.jpeg?h=900&r=0.5",
        "lic": "wallpaper.mob",
        "pg": "https://wallpaper.mob.org/image/earth-mountain-307660.html",
        "tags": "Mountains, Mountain, Earth"
     },
     {
       "thumb": "https://w.forfun.com/fetch/62/62e3ce60fc426fe6f475764cd99779b9.jpeg?h=900&r=0.5",
-       "full": "https://w.forfun.com/fetch/62/62e3ce60fc426fe6f475764cd99779b9.jpeg",
+       "full": "https://w.forfun.com/fetch/62/62e3ce60fc426fe6f475764cd99779b9.jpeg?h=900&r=0.5",
        "lic": "wallpaper.mob",
        "pg": "https://wallpaper.mob.org/image/les-volshebstvo-babochki-fentezi-art-67940.html",
        "tags": "Art, Magic, Fantasy, Butterflies, Forest latest"
     },
     {
       "thumb": "https://w.forfun.com/fetch/e0/e02976fe13acce5d5b7a80c8f65202f7.jpeg?h=900&r=0.5",
-       "full": "https://w.forfun.com/fetch/e0/e02976fe13acce5d5b7a80c8f65202f7.jpeg",
+       "full": "https://w.forfun.com/fetch/e0/e02976fe13acce5d5b7a80c8f65202f7.jpeg?h=900&r=0.5",
        "lic": "wallpaper.mob",
        "pg": "https://wallpaper.mob.org/image/fentezi-gory-pejzazh-12850.html",
        "tags": "Fantasy, Landscape, Mountains latest"
     },
     {
       "thumb": "https://w.forfun.com/fetch/4c/4cf3401dfcd0150ff8fa2ae0875c7e1d.jpeg?h=900&r=0.5",
-       "full": "https://w.forfun.com/fetch/4c/4cf3401dfcd0150ff8fa2ae0875c7e1d.jpeg",
+       "full": "https://w.forfun.com/fetch/4c/4cf3401dfcd0150ff8fa2ae0875c7e1d.jpeg?h=900&r=0.5",
        "lic": "wallpaper.mob",
        "pg": "https://wallpaper.mob.org/image/fentezi-griby-risunki-11608.html",
        "tags": "Mashrooms, Pictures, Fantasy latest"
@@ -143,14 +143,14 @@ const wallpapers = [
     },
     {
       "thumb": "https://w.forfun.com/fetch/4f/4fb996199d4dea625c354a297732b413.jpeg?h=900&r=0.5",
-       "full": "https://w.forfun.com/fetch/4f/4fb996199d4dea625c354a297732b413.jpeg",
+       "full": "https://w.forfun.com/fetch/4f/4fb996199d4dea625c354a297732b413.jpeg?h=900&r=0.5",
        "lic": "wallpaper.mob",
        "pg": "https://wallpaper.mob.org/image/nature-tsvetok-solntse-zakat-sumerki-temnii-72352.html",
        "tags": "Sunset, Twilight, Flower, Sun, Nature, Dusk, Dark popular"
     },
     {
       "thumb": "https://w.forfun.com/fetch/71/71bbad60684ccd1ac7313016a82a0e0a.jpeg?h=900&r=0.5",
-       "full": "https://w.forfun.com/fetch/71/71bbad60684ccd1ac7313016a82a0e0a.jpeg",
+       "full": "https://w.forfun.com/fetch/71/71bbad60684ccd1ac7313016a82a0e0a.jpeg?h=900&r=0.5",
        "lic": "wallpaper.mob",
        "pg": "https://wallpaper.mob.org/image/nature-zakat-volni-bereg-87530.html",
        "tags": "Sunset, Nature, Bank, Shore, Waves "
@@ -164,35 +164,35 @@ const wallpapers = [
     },
     {
       "thumb": "https://w.forfun.com/fetch/b2/b2edb29f87134af4d48d48a821389237.jpeg?h=900&r=0.5",
-       "full": "https://w.forfun.com/fetch/b2/b2edb29f87134af4d48d48a821389237.jpeg",
+       "full": "https://w.forfun.com/fetch/b2/b2edb29f87134af4d48d48a821389237.jpeg?h=900&r=0.5",
        "lic": "wallpaper.mob",
        "pg": "https://wallpaper.mob.org/image/dark-ptitsa-vetki-siluet-zakat-solntse-102684.html",
        "tags": "Sunset, Branches, Sun, Bird, Silhouette, Dark"
     },
     {
       "thumb": "https://w.forfun.com/fetch/54/54e7a8b4a6460c90e6f1df2efd391ec8.jpeg?h=900&r=0.5",
-       "full": "https://w.forfun.com/fetch/54/54e7a8b4a6460c90e6f1df2efd391ec8.jpeg",
+       "full": "https://w.forfun.com/fetch/54/54e7a8b4a6460c90e6f1df2efd391ec8.jpeg?h=900&r=0.5",
        "lic": "wallpaper.mob",
        "pg": "https://wallpaper.mob.org/image/nature-palmi-vetki-nebo-oblaka-zakat-vid_snizu-poristii-138675.html",
        "tags": "Sky, Sunset, Palms, Porous, Clouds, Branches, Bottom View, Nature"
     },
     {
       "thumb": "https://w.forfun.com/fetch/d8/d8e0dbfcc716aebc97245273311a2479.jpeg?h=900&r=0.5",
-       "full": "https://w.forfun.com/fetch/d8/d8e0dbfcc716aebc97245273311a2479.jpeg",
+       "full": "https://w.forfun.com/fetch/d8/d8e0dbfcc716aebc97245273311a2479.jpeg?h=900&r=0.5",
        "lic": "wallpaper.mob",
        "pg": "https://wallpaper.mob.org/image/nature-okean-skali-zakat-poberezhe-more-111037.html",
        "tags": "Sunset, Rocks, Coast, Ocean, Nature, Sea popular"
     },
     {
       "thumb": "https://w.forfun.com/fetch/08/088ead6bd88beb88c6f1f9b71e3a04b3.jpeg?h=900&r=0.5",
-       "full": "https://w.forfun.com/fetch/08/088ead6bd88beb88c6f1f9b71e3a04b3.jpeg",
+       "full": "https://w.forfun.com/fetch/08/088ead6bd88beb88c6f1f9b71e3a04b3.jpeg?h=900&r=0.5",
        "lic": "wallpaper.mob",
        "pg": "https://wallpaper.mob.org/image/nature-palmi-zakat-okean-vecher-tropiki-154027.html",
        "tags": "Sunset, Ocean, Nature, Evening, Palms"
     },
     {
       "thumb": "https://w.forfun.com/fetch/ea/eac106e31a0ea123f4a7bfad3a12bdfa.jpeg?h=900&r=0.5",
-       "full": "https://w.forfun.com/fetch/ea/eac106e31a0ea123f4a7bfad3a12bdfa.jpeg",
+       "full": "https://w.forfun.com/fetch/ea/eac106e31a0ea123f4a7bfad3a12bdfa.jpeg?h=900&r=0.5",
        "lic": "wallpaper.mob",
        "pg": "https://wallpaper.mob.org/image/nature-ozero-zakat-gorizont-noch-146760.html",
        "tags": "Horizon, Night, Sunset, Nature, Lake popular"
@@ -206,42 +206,42 @@ const wallpapers = [
     },
     {
       "thumb": "https://w.forfun.com/fetch/51/51c724a60c466c8899e983f1229c3e8e.jpeg?h=900&r=0.5",
-       "full": "https://w.forfun.com/fetch/51/51c724a60c466c8899e983f1229c3e8e.jpeg",
+       "full": "https://w.forfun.com/fetch/51/51c724a60c466c8899e983f1229c3e8e.jpeg?h=900&r=0.5",
        "lic": "wallpaper.mob",
        "pg": "https://wallpaper.mob.org/image/dark-zdanie-temnii-sumerki-poberezhe-otrazhenie-112141.html",
        "tags": "Coast, Reflection, Dusk, Twilight, Building, Dark"
     },
     {
       "thumb": "https://w.forfun.com/fetch/b7/b7f647da10be584b5dfdc2709b6c59e9.jpeg?h=900&r=0.5",
-       "full": "https://w.forfun.com/fetch/b7/b7f647da10be584b5dfdc2709b6c59e9.jpeg",
+       "full": "https://w.forfun.com/fetch/b7/b7f647da10be584b5dfdc2709b6c59e9.jpeg?h=900&r=0.5",
        "lic": "wallpaper.mob",
        "pg": "https://wallpaper.mob.org/image/earth-sunset-coast-hawaii-horizon-ocean-sea-sun-sunbeam-837271.html",
        "tags": "Sunset, Sea, Sun, Horizon, Coast, Ocean, Earth, Hawaii, Sunbeam"
     },
     {
       "thumb": "https://w.forfun.com/fetch/92/9293f97695432011c805cf0fc3ba03e7.jpeg?h=900&r=0.5",
-       "full": "https://w.forfun.com/fetch/92/9293f97695432011c805cf0fc3ba03e7.jpeg",
+       "full": "https://w.forfun.com/fetch/92/9293f97695432011c805cf0fc3ba03e7.jpeg?h=900&r=0.5",
        "lic": "wallpaper.mob",
        "pg": "https://wallpaper.mob.org/image/photography-lofoten-cloud-coast-earth-fjord-island-landscape-lofoten_islands-norway-ocean-reine-seascape-seashore-village-671809.html",
        "tags": "Landscape, Coast, Ocean, Earth, Village, Island, Norway, Cloud, Photography, Lofoten, Lofoten Islands, Fjord, Seascape, Reine, Seashore"
     },
     {
       "thumb": "https://w.forfun.com/fetch/d5/d566d9e03a4ca75ae929647d189f1a88.jpeg?h=900&r=0.5",
-       "full": "https://w.forfun.com/fetch/d5/d566d9e03a4ca75ae929647d189f1a88.jpeg",
+       "full": "https://w.forfun.com/fetch/d5/d566d9e03a4ca75ae929647d189f1a88.jpeg?h=900&r=0.5",
        "lic": "wallpaper.mob",
        "pg": "https://wallpaper.mob.org/image/earth-ocean-cloud-coast-nature-sunset-waterfall-562542.html",
        "tags": "Nature, Sunset, Coast, Waterfall, Ocean, Earth"
     },
     {
       "thumb": "https://w.forfun.com/fetch/c7/c7297ec3389c38acb443bf8cac37880a.jpeg?h=900&r=0.5",
-       "full": "https://w.forfun.com/fetch/c7/c7297ec3389c38acb443bf8cac37880a.jpeg",
+       "full": "https://w.forfun.com/fetch/c7/c7297ec3389c38acb443bf8cac37880a.jpeg?h=900&r=0.5",
        "lic": "wallpaper.mob",
        "pg": "https://wallpaper.mob.org/image/nature-okean-vid_sverkhu-poberezhe-palmi-pesok-110925.html",
        "tags": "View From Above, Coast, Sand, Ocean, Nature, Palms latest"
     },
     {
       "thumb": "https://w.forfun.com/fetch/9a/9a40774f4444db61dde74ab71eae2101.jpeg?h=900&r=0.5",
-       "full": "https://w.forfun.com/fetch/9a/9a40774f4444db61dde74ab71eae2101.jpeg",
+       "full": "https://w.forfun.com/fetch/9a/9a40774f4444db61dde74ab71eae2101.jpeg?h=900&r=0.5",
        "lic": "wallpaper.mob",
        "pg": "https://wallpaper.mob.org/image/nature-okean-vid_sverkhu-poberezhe-pesok-117990.html",
        "tags": ""
