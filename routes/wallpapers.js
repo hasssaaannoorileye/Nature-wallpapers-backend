@@ -30,6 +30,160 @@ function paginatedResults(model) {
 
 const wallpapers = [
     {
+      "thumb": "https://cdn.pixabay.com/photo/2023/11/27/21/15/bird-8416208_150.jpg",
+       "full": "https://cdn.pixabay.com/photo/2023/11/27/21/15/bird-8416208_1280.jpg",
+       "lic": "Free for use under the Pixabay",
+       "pg": "https://pixabay.com/illustrations/bird-animal-flowers-colorful-8416208/",
+       "tags": "bird animals flowers colorful drawing nature background"
+    },
+    {
+      "thumb": "https://cdn.pixabay.com/photo/2023/12/15/15/52/bird-8450958_150.png",
+       "full": "https://cdn.pixabay.com/photo/2023/12/15/15/52/bird-8450958_1280.png",
+       "lic": "Free for use under the Pixabay",
+       "pg": "https://pixabay.com/illustrations/bird-nature-animal-feathers-sunset-8450958/",
+       "tags": "bird nature animal feathers sunset drawing design background flowers"
+    },
+    {
+      "thumb": "https://images.pexels.com/photos/792381/pexels-photo-792381.jpeg?auto=compress&cs=tinysrgb&w=600",
+       "full": "https://images.pexels.com/photos/792381/pexels-photo-792381.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+       "lic": "Free for use under the pexels",
+       "pg": "https://www.pexels.com/photo/close-up-photography-of-tiger-792381/",
+       "tags": "Animal Pictures Animals Photography Animal Wallpaper Big Cat Carnivore Cat Images Close Up Photos Dangerous Eyes Felidae Feline Fur Head Hunter Looking Mammal Predator Scary Pictures Staring Stripes Tiger Images Whiskers Wild Animal Wildlife"
+    },
+    {
+      "thumb": "https://images.pexels.com/photos/572861/pexels-photo-572861.jpeg?auto=compress&cs=tinysrgb&w=600",
+       "full": "https://images.pexels.com/photos/572861/pexels-photo-572861.jpeg?auto=compress&cs=tinysrgb&w=600",
+       "lic": "Free for use under the pexels",
+       "pg": "https://www.pexels.com/photo/tiger-in-shallow-photo-572861/",
+       "tags": "Animals Pictures Animal Photography Animal Wallpaper Big Big Cat Blur Photo Carnivore Cat Images Claw Close Up Photos Dangerous Depth Of Field Endangered Felidae Feline Focus Fur Grass Hunter Mammal Nature Predator Stretching Stripes Tail Tiger Images Whiskers Wild Animal Wildlife"
+    },
+    {
+      "thumb": "https://images.pexels.com/photos/1661179/pexels-photo-1661179.jpeg?auto=compress&cs=tinysrgb&w=600",
+       "full": "https://images.pexels.com/photos/1661179/pexels-photo-1661179.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+       "lic": "Free for use under the pexels",
+       "pg": "https://www.pexels.com/photo/photo-of-perched-parakeet-1661179/",
+       "tags": "Animal Pictures Animal Head Animal Photography Animal Wallpaper Avian Aviary Beak Biology Bird Close Up Photos Colorful Cute Animal Cute Background Exotic Feathers Macaw Macro Ornithology Parakeet Parrot images Perched Plumage Tropical Wildlife Wildlife Photography Zoology"
+    },
+    {
+      "thumb": "https://images.pexels.com/photos/17811/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=600",
+       "full": "https://images.pexels.com/photos/17811/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=600",
+       "lic": "Free for use under the pexels",
+       "pg": "https://www.pexels.com/photo/black-and-green-toucan-on-tree-branch-17811/",
+       "tags": "Animal Pictures Avian Bird Birds Images Parrot images Perched Toucan animals"
+    },
+    {
+      "thumb": "https://images.pexels.com/photos/4588065/pexels-photo-4588065.jpeg?auto=compress&cs=tinysrgb&w=600",
+       "full": "https://images.pexels.com/photos/4588065/pexels-photo-4588065.jpeg?auto=compress&cs=tinysrgb&w=600",
+       "lic": "Free for use under the pexels",
+       "pg": "https://www.pexels.com/photo/white-rabbit-wearing-yellow-eyeglasses-4588065/",
+       "tags": "Animal Pictures Animal Image Animal Portrait Animals Bunny Cool Copy Space Cute Cute Animal Cute Animals Domestic Animals Funny Pictures Funny Animal Funny Face Humor Pet Pets Portrait Rabbit Studio Summer Sunglasses Yellow Yellow Background"
+    },
+    {
+      "thumb": "https://images.pexels.com/photos/4588055/pexels-photo-4588055.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load",
+       "full": "https://images.pexels.com/photos/4588055/pexels-photo-4588055.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+       "lic": "Free for use under the pexels",
+       "pg": "https://www.pexels.com/photo/rabbit-standing-on-two-legs-4588055/",
+       "tags": "Alert Animal Pictures Animals Image Animal Portrait Bunny Curious Cute Cute Animal Domestic Domestic Animal Easter Funny Pictures Looking Mammal Pet Portrait Rabbit Standing Yellow Background"
+    },
+    {
+      "thumb": "https://images.pexels.com/photos/4587958/pexels-photo-4587958.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load",
+       "full": "https://images.pexels.com/photos/4587958/pexels-photo-4587958.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+       "lic": "Free for use under the pexels",
+       "pg": "https://www.pexels.com/photo/person-putting-sunglasses-on-a-cat-4587958/",
+       "tags": "Adorable Animal Image Animals Portrait Cat Images Copy Space Cute Cute Animal Domestic Animal Domesticated Felidae Feline Funny Pictures Funny Animal Funny Cat Pictures Mammal Pink Background Shades Sunglasees Sunglasses Free Person Putting Crown on Cat Stock Photo Free European Shorthair Cat on a Woven Basket  Stock Photo Free White and Grey Kitten on Brown and Black Leopard Print Textile Stock Photo Free Close-up Photo of a Cute Gray Cat  Stock Photo Sponsored Photos Get 20% off with code PEXELS20 » Free Selective Focus Photography of Bombay Cat Stock Photo Free Close-Up Shot of a Cute Cat Stock Photo Free Shallow Focus Photography of White Cat Stock Photo Free A White Domestic Cat Lying on the Stairs Stock Photo Free Brown Tabby Cat Lying on Concrete Floor Stock Photo Free Cat Beside Green Plant Stock Photo Free Photo Of Cat Sleeping On Ground Stock Photo Free Sleeping Cat Listening to Music using Headphones Stock Photo"
+    },
+    {
+      "thumb": "https://images.pexels.com/photos/4993606/pexels-photo-4993606.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load",
+       "full": "https://images.pexels.com/photos/4993606/pexels-photo-4993606.jpeg",
+       "lic": "Free for use under the pexels",
+       "pg": "https://www.pexels.com/photo/shocked-cat-lying-on-a-counter-top-4993606/",
+       "tags": "Adorable Cat Images Cute Domestic Animal Feline Funny Pictures Funny Cat Pictures Fur Furry Pet Shocked Vertical Shot"
+    },
+    {
+      "thumb": "https://images.pexels.com/photos/1004517/pexels-photo-1004517.jpeg?auto=compress&cs=tinysrgb&w=600",
+       "full": "https://images.pexels.com/photos/1004517/pexels-photo-1004517.jpeg",
+       "lic": "Free for use under the pexels",
+       "pg": "https://www.pexels.com/photo/macaw-bird-1004517/",
+       "tags": "Animals Pictures Avian Bird Macaw Parakeet Parrot images Perched Wildlife"
+    },
+    {
+      "thumb": "https://images.pexels.com/photos/48132/eagle-bird-predator-detail-48132.jpeg?auto=compress&cs=tinysrgb&w=600",
+       "full": "https://images.pexels.com/photos/48132/eagle-bird-predator-detail-48132.jpeg",
+       "lic": "Free for use under the pexels",
+       "pg": "https://www.pexels.com/photo/brown-white-and-yellow-bird-48132/",
+       "tags": "Animals Pictures Beak Bird Close Up Photos Eagle Predator"
+    },
+    {
+      "thumb": "https://images.pexels.com/photos/1170986/pexels-photo-1170986.jpeg?auto=compress&cs=tinysrgb&w=600",
+       "full": "https://images.pexels.com/photos/1170986/pexels-photo-1170986.jpeg",
+       "lic": "Free for use under the pexels",
+       "pg": "https://www.pexels.com/photo/selective-focus-photography-of-orange-tabby-cat-1170986/",
+       "tags": "Adorable Animal Pictures Animal Photography Blur Photo Cat Images Cats Cute Animals Cute Background Cute Wallpaper Domestic Animal Domestic Cat Felidae Feline Fluff Fur Ginger Cat Kawaii Wallpaper Mammal Pet Shallow Focus Tabby Cat"
+    },
+    {
+      "thumb": "https://images.pexels.com/photos/2629372/pexels-photo-2629372.jpeg?auto=compress&cs=tinysrgb&w=600",
+       "full": "https://images.pexels.com/photos/2629372/pexels-photo-2629372.jpeg",
+       "lic": "Free for use under the pexels",
+       "pg": "https://www.pexels.com/photo/focus-photography-of-flying-hummingbird-2629372/",
+       "tags": "Animal Pictures Animal Photography Animals Wallpaper Avian Bird Flying Focus Freedom Hummingbird"
+    },
+    {
+      "thumb": "https://images.pexels.com/photos/804475/pexels-photo-804475.jpeg?auto=compress&cs=tinysrgb&w=600",
+       "full": "https://images.pexels.com/photos/804475/pexels-photo-804475.jpeg",
+       "lic": "Free for use under the pexels",
+       "pg": "https://www.pexels.com/photo/tabby-cat-on-white-wooden-fence-804475/",
+       "tags": "Adorable Animals Pictures Cat Images Cute Domestic Animal Feline Kitten Kitty Mammal Pet Tabby"
+    },
+    {
+      "thumb": "https://images.pexels.com/photos/736532/pexels-photo-736532.jpeg?auto=compress&cs=tinysrgb&w=600",
+       "full": "https://images.pexels.com/photos/736532/pexels-photo-736532.jpeg",
+       "lic": "Free for use under the pexels",
+       "pg": "https://www.pexels.com/photo/brown-short-coated-cat-736532/",
+       "tags": "Animal Pictures Animals Photography Cat Images Cat Background Cat Face Cat Wallpaper Close Up Photos Curious Domestic Domestic Cat Eyes Face Feline Fur Furry Looking Mammal Pet Tabby Whiskers Young"
+    },
+    {
+      "thumb": "https://images.pexels.com/photos/2932688/pexels-photo-2932688.jpeg?auto=compress&cs=tinysrgb&w=600",
+       "full": "https://images.pexels.com/photos/2932688/pexels-photo-2932688.jpeg",
+       "lic": "Free for use under the pexels",
+       "pg": "https://www.pexels.com/photo/cat-lying-on-ground-2932688/",
+       "tags": "Adorable Animal Pictures Blur Photo Cat Images Cat Face Close Up Photos Cute Domestic Eye Fall Pictures Feline Funny Pictures Fur Grey And White Cat Hair Kitten Kitty Little Looking Love Images Mammal Outdoors Pet Portrait Pretty Street Whiskers Young"
+    },
+    {
+      "thumb": "https://w.forfun.com/fetch/8a/8a9f2adb9b92e59c0d47bf7733a08f57.jpeg?h=900&r=0.5",
+       "full": "https://w.forfun.com/fetch/8a/8a9f2adb9b92e59c0d47bf7733a08f57.jpeg",
+       "lic": "Free for use under the pexels",
+       "pg": "https://wallpaper.mob.org/image/nature-palmi-gori-solnechnii_svet-nebo-138433.html",
+       "tags": "Mountains Nature Sunlight Sky Palms"
+    },
+    {
+      "thumb": "https://w.forfun.com/fetch/3d/3d2763aa07f0c91f8b85d418febd6662.jpeg?h=900&r=0.5",
+       "full": "https://w.forfun.com/fetch/3d/3d2763aa07f0c91f8b85d418febd6662.jpeg",
+       "lic": "Free for use under the pexels",
+       "pg": "https://wallpaper.mob.org/image/nature-polyana-tsveti-gori-trava-rassvet-76711.html",
+       "tags": "wallpaper: Dawn, Mountains, Nature, Flowers, Polyana, Glade, Grass"
+    },
+    {
+      "thumb": "https://w.forfun.com/fetch/5c/5c4536c2e81e9910601e90b93fe3a300.jpeg?h=900&r=0.5",
+       "full": "https://w.forfun.com/fetch/5c/5c4536c2e81e9910601e90b93fe3a300.jpeg",
+       "lic": "Free for use under the pexels",
+       "pg": "https://wallpaper.mob.org/image/nature-maunt_reinir-ssha-gori-sneg-derevya-trava-tsveti-sklon-141816.html",
+       "tags": "Nature, Usa, Mountains, Mount Rainier, Trees, Grass, Slope, Snow, United States, Flowers "
+    },
+    {
+      "thumb": "https://w.forfun.com/fetch/2c/2cf1fd2d383a67c27fc0adb2c58a2d46.jpeg?h=900&r=0.5",
+       "full": "https://w.forfun.com/fetch/2c/2cf1fd2d383a67c27fc0adb2c58a2d46.jpeg",
+       "lic": "Free for use under the pexels",
+       "pg": "https://wallpaper.mob.org/image/gori-ozero-vodopad-polyana-les-art-115335.html",
+       "tags": "Mountains, Forest, Glade, Waterfall, Lake, Polyana, Art"
+    },
+    {
+      "thumb": "https://w.forfun.com/fetch/76/766e217a760c07f35a0b3f6aa21ee6da.jpeg?h=900&r=0.5",
+       "full": "https://w.forfun.com/fetch/76/766e217a760c07f35a0b3f6aa21ee6da.jpeg",
+       "lic": "Free for use under the pexels",
+       "pg": "https://wallpaper.mob.org/image/nature-doroga-gori-derevya-asfalt-osen-102766.html",
+       "tags": " Mountains, Road, Asphalt, Trees, Nature, Autumn"
+    },
+    {
       "thumb": "https://w.forfun.com/fetch/03/03dba325c1a3c2ef730cb7dd8b63e9c3.jpeg?h=450&r=0.5",
        "full": "https://w.forfun.com/fetch/03/03dba325c1a3c2ef730cb7dd8b63e9c3.jpeg?h=900&r=0.5",
        "lic": "wallpaper.mob",
