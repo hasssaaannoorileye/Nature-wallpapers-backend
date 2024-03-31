@@ -29,6 +29,62 @@ function paginatedResults(model) {
 }
 const wallpapers = [
     {
+      "thumb": "https://cdn.pixabay.com/photo/2024/03/18/20/43/marigold-8641842_150.jpg",
+       "full": "https://cdn.pixabay.com/photo/2024/03/18/20/43/marigold-8641842_1280.jpg",
+       "lic": "pixabay",
+       "pg": "https://pixabay.com/illustrations/marigold-flower-nature-bloom-plant-8641842/",
+       "tags": "marigold flower nature bloom plant yellow petals garden flora flower background flower wallpaper wallpaper floral background ai generated"
+    },
+    {
+      "thumb": "https://cdn.pixabay.com/photo/2023/02/12/02/34/ai-generated-7784043_150.jpg",
+       "full": "https://cdn.pixabay.com/photo/2023/02/12/02/34/ai-generated-7784043_1280.jpg",
+       "lic": "pixabay",
+       "pg": "https://pixabay.com/illustrations/ai-generated-flower-rose-7784043/",
+       "tags": "ai generated flower nature rose valentine's day heart romantic celebration february greeting fantasy wallpaper"
+    },
+    {
+      "thumb": "https://cdn.pixabay.com/photo/2024/01/24/16/30/ai-generated-8529918_150.jpg",
+       "full": "https://cdn.pixabay.com/photo/2024/01/24/16/30/ai-generated-8529918_1280.jpg",
+       "lic": "pixabay",
+       "pg": "https://pixabay.com/illustrations/ai-generated-rose-flower-bloom-8529918/",
+       "tags": "ai generated rose flower bloom petals plant floral nature wallpaper"
+    },
+    {
+      "thumb": "https://cdn.pixabay.com/photo/2024/03/08/10/55/ai-generated-8620503_150.jpg",
+       "full": "https://cdn.pixabay.com/photo/2024/03/08/10/55/ai-generated-8620503_1280.jpg",
+       "lic": "pixabay",
+       "pg": "https://pixabay.com/illustrations/ai-generated-panther-animal-8620503/",
+       "tags": "ai generated panther animal predator wild nature feline portrait flowers wallpaper"
+    },
+    {
+      "thumb": "https://cdn.pixabay.com/photo/2024/03/27/16/07/ai-generated-8659388_150.jpg",
+       "full": "https://cdn.pixabay.com/photo/2024/03/27/16/07/ai-generated-8659388_1280.jpg",
+       "lic": "pixabay",
+       "pg": "https://pixabay.com/illustrations/ai-generated-panther-animal-jungle-8659388/",
+       "tags": "ai generated panther animal jungle feline predator fauna wild nature animals wallpaper"
+    },
+    {
+      "thumb": "https://cdn.pixabay.com/photo/2022/12/30/10/05/still-lifes-7686589_150.jpg",
+       "full": "https://cdn.pixabay.com/photo/2022/12/30/10/05/still-lifes-7686589_1280.jpg",
+       "lic": "pixabay",
+       "pg": "https://pixabay.com/illustrations/still-lifes-there-generated-vase-7686589/",
+       "tags": "still lifes there generated vase nature fruit sheets cherries blueberries jar food nutrition arrangement painting frame apple orange flower ai generated wallpaper"
+    },
+    {
+      "thumb": "https://cdn.pixabay.com/photo/2022/03/13/08/23/flowers-7065535_150.jpg",
+       "full": "https://cdn.pixabay.com/photo/2022/03/13/08/23/flowers-7065535_1280.jpg",
+       "lic": "pixabay",
+       "pg": "https://pixabay.com/illustrations/flowers-roses-vase-floral-bouquet-7065535/",
+       "tags": "flowers roses vase nature floral bouquet floral arrangement invitations vintage bloom still life floral watercolour watercolor gouache painting popular"
+    },
+    {
+      "thumb": "https://cdn.pixabay.com/photo/2023/01/12/01/55/ai-generated-7713096_150.jpg",
+       "full": "https://cdn.pixabay.com/photo/2023/01/12/01/55/ai-generated-7713096_1280.jpg",
+       "lic": "pixabay",
+       "pg": "https://pixabay.com/illustrations/ai-generated-flowers-roses-7713096/",
+       "tags": "ai generated flowers nature roses bouquet of roses happy mothers day delicate flora fantasy poppular"
+    },
+    {
       "thumb": "https://images.nightcafe.studio/jobs/n2IY0SVstZ7TOKINVvJT/n2IY0SVstZ7TOKINVvJT--1--36dsy.jpg?tr=w-1600,c-at_max",
        "full": "https://images.nightcafe.studio/jobs/n2IY0SVstZ7TOKINVvJT/n2IY0SVstZ7TOKINVvJT--1--36dsy.jpg?tr=w-1600,c-at_max",
        "lic": "nightcafe",
