@@ -29,6 +29,118 @@ function paginatedResults(model) {
 }
 const wallpapers = [
     {
+      "thumb": "https://images.nightcafe.studio/jobs/n2IY0SVstZ7TOKINVvJT/n2IY0SVstZ7TOKINVvJT--1--36dsy.jpg?tr=w-1600,c-at_max",
+       "full": "https://images.nightcafe.studio/jobs/n2IY0SVstZ7TOKINVvJT/n2IY0SVstZ7TOKINVvJT--1--36dsy.jpg?tr=w-1600,c-at_max",
+       "lic": "nightcafe",
+       "pg": "https://creator.nightcafe.studio/creation/n2IY0SVstZ7TOKINVvJT",
+       "tags": "nature animals popular cat"
+    },
+    {
+      "thumb": "https://images.nightcafe.studio/jobs/JsfEvZfCx2qqx1ajIDba/JsfEvZfCx2qqx1ajIDba--1--dv4mb.jpg?tr=w-1600,c-at_max",
+       "full": "https://images.nightcafe.studio/jobs/JsfEvZfCx2qqx1ajIDba/JsfEvZfCx2qqx1ajIDba--1--dv4mb.jpg?tr=w-1600,c-at_max",
+       "lic": "nightcafe",
+       "pg": "https://creator.nightcafe.studio/creation/JsfEvZfCx2qqx1ajIDba",
+       "tags": "Dreamshaper XL Lightning flowers wallpaper"
+    },
+    {
+      "thumb": "https://images.nightcafe.studio/jobs/xf0MS097H2YJzvJdfrIO/xf0MS097H2YJzvJdfrIO--1--f16ux.jpg?tr=w-1600,c-at_max",
+       "full": "https://images.nightcafe.studio/jobs/xf0MS097H2YJzvJdfrIO/xf0MS097H2YJzvJdfrIO--1--f16ux.jpg?tr=w-1600,c-at_max",
+       "lic": "nightcafe",
+       "pg": "https://creator.nightcafe.studio/creation/xf0MS097H2YJzvJdfrIO",
+       "tags": "ai generated illustration wallpaper heart flowers"
+    },
+    {
+      "thumb": "https://images.nightcafe.studio/jobs/e8FQ6Pucp9UFB49qLKmo/e8FQ6Pucp9UFB49qLKmo--1--d6h9g.jpg?tr=w-1600,c-at_max",
+       "full": "https://images.nightcafe.studio/jobs/e8FQ6Pucp9UFB49qLKmo/e8FQ6Pucp9UFB49qLKmo--1--d6h9g.jpg?tr=w-1600,c-at_max",
+       "lic": "nightcafe",
+       "pg": "https://creator.nightcafe.studio/creation/e8FQ6Pucp9UFB49qLKmo",
+       "tags": "#easter#easter-bunny#easter-eggs#spring#flowers wallpaper"
+    },
+    {
+      "thumb": "https://cdn.pixabay.com/photo/2022/12/30/10/49/giant-water-lilies-7686641_150.jpg",
+       "full": "https://cdn.pixabay.com/photo/2022/12/30/10/49/giant-water-lilies-7686641_1280.jpg",
+       "lic": "Free for use & download under pixabay",
+       "pg": "https://pixabay.com/illustrations/giant-water-lilies-lake-forest-7686641/",
+       "tags": "giant water lilies lake forest panorama agua trees light beam nature painting calm still art ai generated wallpaper"
+    },
+    {
+      "thumb": "https://images.nightcafe.studio/jobs/Ef0E6JeQBAdCFXi4vgUo/Ef0E6JeQBAdCFXi4vgUo--1--caumg.jpg?tr=w-1600,c-at_max",
+       "full": "https://images.nightcafe.studio/jobs/Ef0E6JeQBAdCFXi4vgUo/Ef0E6JeQBAdCFXi4vgUo--1--caumg.jpg?tr=w-1600,c-at_max",
+       "lic": "nightcafe",
+       "pg": "https://creator.nightcafe.studio/creation/Ef0E6JeQBAdCFXi4vgUo",
+       "tags": "#eggs#easter-eggs#flowers#nature-art#spring wallpaper"
+    },
+    {
+      "thumb": "https://images.nightcafe.studio/jobs/KKwJJ99OsFRDhDPIAmyz/KKwJJ99OsFRDhDPIAmyz--1--viti8.jpg?tr=w-1600,c-at_max",
+       "full": "https://images.nightcafe.studio/jobs/KKwJJ99OsFRDhDPIAmyz/KKwJJ99OsFRDhDPIAmyz--1--viti8.jpg?tr=w-1600,c-at_max",
+       "lic": "https://creator.nightcafe.studio/creation/KKwJJ99OsFRDhDPIAmyz",
+       "pg": "nightcafe",
+       "tags": "Mother cat and her kitten Playing in a field of flowers wallpaper animals"
+    },
+    {
+      "thumb": "https://images.nightcafe.studio/jobs/gRIGqzheEWHAvoxf6kwe/gRIGqzheEWHAvoxf6kwe--1--gq4pn.jpg?tr=w-1600,c-at_max",
+       "full": "https://images.nightcafe.studio/jobs/gRIGqzheEWHAvoxf6kwe/gRIGqzheEWHAvoxf6kwe--1--gq4pn.jpg?tr=w-1600,c-at_max",
+       "lic": "nightcafe",
+       "pg": "https://creator.nightcafe.studio/creation/gRIGqzheEWHAvoxf6kwe",
+       "tags": "#enchanted#forest#artwork#flowers#forestscape wallpaper"
+    },
+    {
+      "thumb": "https://cdn.pixabay.com/photo/2023/01/19/02/40/ai-generated-7728198_150.jpg",
+       "full": "https://cdn.pixabay.com/photo/2023/01/19/02/40/ai-generated-7728198_1280.jpg",
+       "lic": "Free for use & download under pixabay",
+       "pg": "https://pixabay.com/illustrations/ai-generated-red-tulips-mothers-day-7728198/",
+       "tags": "ai generated nature red tulips happy mothers day tulips flowers flower vase unreal flora bouquet of tulips wallpaper"
+    },
+    {
+      "thumb": "https://cdn.pixabay.com/photo/2016/11/23/13/32/red-panda-1852861_150.jpg",
+       "full": "https://cdn.pixabay.com/photo/2016/11/23/13/32/red-panda-1852861_1280.jpg",
+       "lic": "Free for use & download under pixabay",
+       "pg": "https://pixabay.com/photos/red-panda-tree-carnivore-mammal-1852861/",
+       "tags": "red panda tree carnivore mammal wilderness wild animal portrait animal world wildlife photography animal nature cute wildlife zoo popular"
+    },
+    {
+      "thumb": "https://cdn.pixabay.com/photo/2023/01/06/02/29/ai-generated-7700293_150.jpg",
+       "full": "https://cdn.pixabay.com/photo/2023/01/06/02/29/ai-generated-7700293_1280.jpg",
+       "lic": "Free for use & download under pixabay",
+       "pg": "https://pixabay.com/photos/ai-generated-tulips-flowers-7700293/",
+       "tags": "ai generated flower nature beautiful tulips red tulip background decor motif flora popular"
+    },
+    {
+      "thumb": "https://cdn.pixabay.com/photo/2020/03/18/19/52/wild-tulip-4945396_150.jpg",
+       "full": "https://cdn.pixabay.com/photo/2020/03/18/19/52/wild-tulip-4945396_1280.jpg",
+       "lic": "Free for use & download under pixabay",
+       "pg": "https://pixabay.com/photos/wild-tulip-tulipa-sylvestris-4945396/",
+       "tags": "wild tulip tulipa sylvestris vineyard tulip forest-tulip blossoms white spring petals tulip blossom wild outdoors nature tulip stamens forest popular"
+    },
+    {
+      "thumb": "https://cdn.pixabay.com/photo/2013/08/31/18/13/flower-177889_150.jpg",
+       "full": "https://cdn.pixabay.com/photo/2013/08/31/18/13/flower-177889_1280.jpg",
+       "lic": "Free for use & download under pixabay",
+       "pg": "https://pixabay.com/photos/flower-tulip-field-purple-flower-177889/",
+       "tags": "flower tulip flower background field purple bloom blossom flowering plant ornamental plant plant flora beautiful nature garden closeup popular"
+    },
+    {
+      "thumb": "https://cdn.pixabay.com/photo/2023/02/24/02/32/ai-generated-7809992_150.jpg",
+       "full": "https://cdn.pixabay.com/photo/2023/02/24/02/32/ai-generated-7809992_1280.jpg",
+       "lic": "Free for use & download under pixabay",
+       "pg": "https://pixabay.com/illustrations/ai-generated-rose-flower-7809992/",
+       "tags": "ai generated rose flower nature yellow rose yellow flower background copyspace fantasy popular"
+    },
+    {
+      "thumb": "https://cdn.pixabay.com/photo/2024/03/15/19/19/ai-generated-8635628_150.jpg",
+       "full": "https://cdn.pixabay.com/photo/2024/03/15/19/19/ai-generated-8635628_1280.jpg",
+       "lic": "Free for use & download under pixabay",
+       "pg": "https://pixabay.com/illustrations/ai-generated-rose-flower-bloom-8635628/",
+       "tags": "ai generated rose floral background flower bloom petals flora plant rose wallpaper nature flower background wallpaper"
+    },
+    {
+      "thumb": "https://cdn.pixabay.com/photo/2023/01/26/22/31/ai-generated-7747390_150.jpg",
+       "full": "https://cdn.pixabay.com/photo/2023/01/26/22/31/ai-generated-7747390_1280.jpg",
+       "lic": "Free for use & download under pixabay",
+       "pg": "https://pixabay.com/illustrations/ai-generated-flower-petals-daisy-7747390/",
+       "tags": "ai generated flower petals daisy plant blossom nature floral garden bright spring wallpaper"
+    },
+    {
       "thumb": "https://w.forfun.com/fetch/db/db19f956957589fa5f78ab962674f9d6.jpeg?h=900&r=0.5",
        "full": "https://w.forfun.com/fetch/db/db19f956957589fa5f78ab962674f9d6.jpeg?h=900&r=0.5",
        "lic": "wallpaper.mob",
