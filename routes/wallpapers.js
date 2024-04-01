@@ -29,6 +29,230 @@ function paginatedResults(model) {
 }
 const wallpapers = [
     {
+      "thumb": "https://cdn.pixabay.com/photo/2021/09/20/21/32/lake-6641880_150.jpg",
+       "full": "https://cdn.pixabay.com/photo/2021/09/20/21/32/lake-6641880_1280.jpg",
+       "lic": "pixabay",
+       "pg": "https://pixabay.com/photos/lake-rocks-forest-nature-water-6641880/",
+       "tags": "lake rocks forest nature water landscape"
+    },
+    {
+      "thumb": "https://cdn.pixabay.com/photo/2017/08/27/15/09/moraine-lake-2686353_150.jpg",
+       "full": "https://cdn.pixabay.com/photo/2017/08/27/15/09/moraine-lake-2686353_1280.jpg",
+       "lic": "pixabay",
+       "pg": "https://pixabay.com/photos/moraine-lake-mountains-lake-2686353/",
+       "tags": "moraine lake mountains lake mountainous mountain ranges mirroring mirror image reflection water reflection forests conifers evergreen coniferous conifer forest landscape nature outdoors forest woods countryside"
+    },
+    {
+      "thumb": "https://cdn.pixabay.com/photo/2016/09/19/07/01/lake-1679708_150.jpg",
+       "full": "https://cdn.pixabay.com/photo/2016/09/19/07/01/lake-1679708_1280.jpg",
+       "lic": "pixabay",
+       "pg": "https://pixabay.com/photos/lake-conifers-clouds-trees-sky-1679708/",
+       "tags": "lake conifers clouds trees sky cloudy sky coniferous conifer forest forest woods woodlands lake irene colorado water reflection water reflection landscape scenic idyll nature outdoors wilderness countryside rural"
+    },
+    {
+      "thumb": "https://cdn.pixabay.com/photo/2018/10/14/12/16/lago-federa-3746335_150.jpg",
+       "full": "https://cdn.pixabay.com/photo/2018/10/14/12/16/lago-federa-3746335_1280.jpg",
+       "lic": "pixabay",
+       "pg": "https://pixabay.com/photos/lago-federa-lake-italy-dolomites-3746335/",
+       "tags": "lago federa lake italy dolomites landscape alpine nature mountains"
+    },
+    {
+      "thumb": "https://cdn.pixabay.com/photo/2017/12/11/10/58/lago-federa-3011939_150.jpg",
+       "full": "https://cdn.pixabay.com/photo/2017/12/11/10/58/lago-federa-3011939_1280.jpg",
+       "lic": "pixabay",
+       "pg": "https://pixabay.com/photos/lago-federa-mountain-lake-dolomites-3011939/",
+       "tags": "lago federa mountain lake dolomites croda da lago italy landscape lake nature alps mountain landscape mountains mountain world blue vacations water hike summer outlook reflection natural gem holiday vacation alto adige south-tirol"
+    },
+    {
+      "thumb": "https://cdn.pixabay.com/photo/2017/08/04/17/56/dolomites-2580866_150.jpg",
+       "full": "https://cdn.pixabay.com/photo/2017/08/04/17/56/dolomites-2580866_1280.jpg",
+       "lic": "pixabay",
+       "pg": "https://pixabay.com/photos/dolomites-val-gardena-lake-2580866/",
+       "tags": "dolomites val gardena lake mountains nature scenery reflection water trees landscape alps alpine scenic geisler range unesco world heritage south tyrol italy"
+    },
+    {
+      "thumb": "https://cdn.pixabay.com/photo/2020/09/11/00/11/field-5561687_150.jpg",
+       "full": "https://cdn.pixabay.com/photo/2020/09/11/00/11/field-5561687_1280.jpg",
+       "lic": "pixabay",
+       "pg": "https://pixabay.com/photos/field-mountains-rural-village-5561687/",
+       "tags": "field mountains rural village meadow landscape mountain range countryside scenery scenic nature alps alpine val gardena dolomites south tyrol italy"
+    },
+    {
+      "thumb": "https://cdn.pixabay.com/photo/2018/05/08/19/47/landscape-3383759_150.jpg",
+       "full": "https://cdn.pixabay.com/photo/2018/05/08/19/47/landscape-3383759_1280.jpg",
+       "lic": "pixabay",
+       "pg": "https://pixabay.com/photos/landscape-field-plants-outdoors-3383759/",
+       "tags": "landscape field plants outdoors travel nature rural"
+    },
+    {
+      "thumb": "https://cdn.pixabay.com/photo/2022/05/23/19/28/field-7217003_150.jpg",
+       "full": "https://cdn.pixabay.com/photo/2022/05/23/19/28/field-7217003_1280.jpg",
+       "lic": "pixabay",
+       "pg": "https://pixabay.com/photos/field-agriculture-grain-nature-7217003/",
+       "tags": "field agriculture grain nature cultivation landscape"
+    },
+    {
+      "thumb": "https://cdn.pixabay.com/photo/2018/02/01/14/09/field-3123271_150.jpg",
+       "full": "https://cdn.pixabay.com/photo/2018/02/01/14/09/field-3123271_1280.jpg",
+       "lic": "pixabay",
+       "pg": "https://pixabay.com/photos/field-flowers-meadow-landscape-3123271/",
+       "tags": "field flowers meadow landscape beautiful flowers mountains alps alpine scenery flower wallpaper nature flower background outdoors wilderness"
+    },
+    {
+      "thumb": "https://cdn.pixabay.com/photo/2015/05/08/08/49/mountains-757731_150.jpg",
+       "full": "https://cdn.pixabay.com/photo/2015/05/08/08/49/mountains-757731_1280.jpg",
+       "lic": "pixabay",
+       "pg": "https://pixabay.com/photos/mountains-alps-meadow-tree-flowers-757731/",
+       "tags": "mountains alps meadow tree flowers flower wallpaper wildlfowers fields flower background alpine snow mountains flower field beautiful flowers flower meadow landscape nature"
+    },
+    {
+      "thumb": "https://cdn.pixabay.com/photo/2016/07/04/01/44/mountain-world-1495832_150.jpg",
+       "full": "https://cdn.pixabay.com/photo/2016/07/04/01/44/mountain-world-1495832_1280.jpg",
+       "lic": "pixabay",
+       "pg": "https://pixabay.com/photos/mountain-world-landscape-mountains-1495832/",
+       "tags": "mountain world landscape mountains alm alpine hut alpine meadow austria nature alps heaven inntal valley"
+    },
+    {
+      "thumb": "https://cdn.pixabay.com/photo/2015/04/23/22/01/tree-736887_150.jpg",
+       "full": "https://cdn.pixabay.com/photo/2015/04/23/22/01/tree-736887_1280.jpg",
+       "lic": "pixabay",
+       "pg": "https://pixabay.com/photos/tree-clouds-field-grass-meadow-736887/",
+       "tags": "tree clouds field grass meadow horizon sky grasslands single tree grassy field grassy meadow landscape nature rural countryside"
+    },
+    {
+      "thumb": "https://cdn.pixabay.com/photo/2022/05/10/11/12/tree-7186835_150.jpg",
+       "full": "https://cdn.pixabay.com/photo/2022/05/10/11/12/tree-7186835_1280.jpg",
+       "lic": "pixabay",
+       "pg": "https://pixabay.com/photos/tree-sunrise-field-prairie-meadow-7186835/",
+       "tags": "tree sunrise field prairie meadow ash tree green light calm down spring nature landscape"
+    },
+    {
+      "thumb": "https://cdn.pixabay.com/photo/2015/12/29/23/17/mountains-1113547_150.jpg",
+       "full": "https://cdn.pixabay.com/photo/2015/12/29/23/17/mountains-1113547_1280.jpg",
+       "lic": "pixabay",
+       "pg": "https://pixabay.com/photos/mountains-field-sunset-sunrise-1113547/",
+       "tags": "mountains field sunset sunrise landscape sunlight orange sky fog trees meadow sky clouds dawn dusk glow dramatic beautiful natural scenery scenic nature"
+    },
+    {
+      "thumb": "https://cdn.pixabay.com/photo/2015/06/19/20/13/sunset-815270_150.jpg",
+       "full": "https://cdn.pixabay.com/photo/2015/06/19/20/13/sunset-815270_1280.jpg",
+       "lic": "pixabay",
+       "pg": "https://pixabay.com/photos/sunset-poppies-field-red-poppies-815270/",
+       "tags": "sunset poppies field red poppies poppy field red flowers meadow flower meadow flower field dusk twilight horizon sky sun nature"
+    },
+    {
+      "thumb": "https://cdn.pixabay.com/photo/2015/04/27/22/25/sunset-742744_150.jpg",
+       "full": "https://cdn.pixabay.com/photo/2015/04/27/22/25/sunset-742744_1280.jpg",
+       "lic": "pixabay",
+       "pg": "https://pixabay.com/photos/sunset-tree-silhouettes-742744/",
+       "tags": "sunset tree silhouettes bird silhouettes flying birds migratory birds tree silhouette sun dusk twilight setting sun landscape nature dawn sunrise"
+    },
+    {
+      "thumb": "https://i.pinimg.com/474x/8a/59/1b/8a591bc84256f866792d8bb45cdab81b.jpg",
+       "full": "https://i.pinimg.com/564x/8a/59/1b/8a591bc84256f866792d8bb45cdab81b.jpg",
+       "lic": "pinterest",
+       "pg": "https://in.pinterest.com/pin/108508672266712015/",
+       "tags": "Dalgalar Ve Ay Duvar Kağıdı - Waves And Moon wallpaper"
+    },
+    {
+      "thumb": "https://i.pinimg.com/474x/2b/17/e4/2b17e41a7c6013ea2d22b6d2dbf00565.jpg",
+       "full": "https://i.pinimg.com/564x/2b/17/e4/2b17e41a7c6013ea2d22b6d2dbf00565.jpg",
+       "lic": "pinterest",
+       "pg": "https://in.pinterest.com/pin/293719206964264956/",
+       "tags": "Gece Duvar Kağıdı night dark trees beach- Night wallpaper"
+    },
+    {
+      "thumb": "https://i.pinimg.com/564x/87/f5/d1/87f5d16c75abf315252cd8275828402e.jpg",
+       "full": "https://i.pinimg.com/564x/87/f5/d1/87f5d16c75abf315252cd8275828402e.jpg",
+       "lic": "pinterest",
+       "pg": "https://in.pinterest.com/pin/387450374207823049/",
+       "tags": "Nature popular autumn phone | Greenbubble"
+    },
+    {
+      "thumb": "https://i.pinimg.com/564x/cb/d3/23/cbd323dadb8a6d647014c8b965487128.jpg",
+       "full": "https://i.pinimg.com/originals/cb/d3/23/cbd323dadb8a6d647014c8b965487128.jpg",
+       "lic": "pinterest",
+       "pg": "https://in.pinterest.com/pin/1829656092979968/",
+       "tags": "wallpaper nature house lake mountains autumn"
+    },
+    {
+      "thumb": "https://i.pinimg.com/474x/17/92/bd/1792bd231e0ef94863b3394c672a8096.jpg",
+       "full": "https://i.pinimg.com/originals/17/92/bd/1792bd231e0ef94863b3394c672a8096.jpg",
+       "lic": "pinterest",
+       "pg": "https://in.pinterest.com/pin/563018697056642/",
+       "tags": "nature green mountain popular"
+    },
+    {
+      "thumb": "https://i.pinimg.com/474x/c2/4b/5b/c24b5b1df873b09c940255e7968d6a83.jpg",
+       "full": "https://i.pinimg.com/originals/c2/4b/5b/c24b5b1df873b09c940255e7968d6a83.jpg",
+       "lic": "pinterest",
+       "pg": "https://in.pinterest.com/pin/3870349673384850/",
+       "tags": "nature green mountain popular"
+    },
+    {
+      "thumb": "https://i.pinimg.com/474x/a3/f4/91/a3f49162becb681b521e38c07e97f44f.jpg",
+       "full": "https://i.pinimg.com/originals/a3/f4/91/a3f49162becb681b521e38c07e97f44f.jpg",
+       "lic": "pinterest",
+       "pg": "https://in.pinterest.com/pin/1477812371903443/",
+       "tags": "nature green mountain popular"
+    },
+    {
+      "thumb": "https://i.pinimg.com/474x/13/cf/82/13cf82d1853301f93462b8d66faff3e7.jpg",
+       "full": "https://i.pinimg.com/originals/13/cf/82/13cf82d1853301f93462b8d66faff3e7.jpg",
+       "lic": "pinterest",
+       "pg": "https://in.pinterest.com/pin/1125968650941885/",
+       "tags": "nature green mountain popular"
+    },
+    {
+      "thumb": "https://i.pinimg.com/474x/ed/fc/61/edfc61b4bdd23e7cb4b3af5e2d03ce9f.jpg",
+       "full": "https://i.pinimg.com/originals/ed/fc/61/edfc61b4bdd23e7cb4b3af5e2d03ce9f.jpg",
+       "lic": "pinterest",
+       "pg": "https://in.pinterest.com/pin/49750770877374954/",
+       "tags": "nature green mountain popular"
+    },
+    {
+      "thumb": "https://i.pinimg.com/564x/e7/9b/74/e79b7470ecee852cf63b13d60e029bc9.jpg",
+       "full": "https://i.pinimg.com/originals/e7/9b/74/e79b7470ecee852cf63b13d60e029bc9.jpg",
+       "lic": "pinterest",
+       "pg": "https://in.pinterest.com/pin/1266706139178731/",
+       "tags": "nature green mountain wallpaper ai "
+    },
+    {
+      "thumb": "https://i.pinimg.com/474x/87/63/8c/87638c13f9d08c21849661b7988d83bd.jpg",
+       "full": "https://i.pinimg.com/originals/87/63/8c/87638c13f9d08c21849661b7988d83bd.jpg",
+       "lic": "pinterest",
+       "pg": "https://in.pinterest.com/pin/532128512238488899/",
+       "tags": "nature green mountain wallpaper ai"
+    },
+    {
+      "thumb": "https://i.pinimg.com/474x/a1/4b/e2/a14be2a7d8e76a8bc6ae33ce5cc90a3a.jpg",
+       "full": "https://i.pinimg.com/originals/a1/4b/e2/a14be2a7d8e76a8bc6ae33ce5cc90a3a.jpg",
+       "lic": "pinterest",
+       "pg": "https://in.pinterest.com/pin/5136987068825378/",
+       "tags": "aerial view beach popular"
+    },
+    {
+      "thumb": "https://i.pinimg.com/474x/d5/e4/28/d5e42831c575b7d1d65a5395bade8474.jpg",
+       "full": "https://i.pinimg.com/originals/d5/e4/28/d5e42831c575b7d1d65a5395bade8474.jpg",
+       "lic": "pinterest",
+       "pg": "https://in.pinterest.com/pin/3377768466346598/",
+       "tags": "green leaf leaves"
+    },
+    {
+      "thumb": "https://i.pinimg.com/474x/02/36/48/023648078740b2a91b9023a2d6f1073e.jpg",
+       "full": "https://i.pinimg.com/originals/02/36/48/023648078740b2a91b9023a2d6f1073e.jpg",
+       "lic": "pinterest",
+       "pg": "https://in.pinterest.com/pin/985231163039944/",
+       "tags": "green leaf leaves orange"
+    },
+    {
+      "thumb": "https://i.pinimg.com/474x/66/34/bd/6634bd18bb3279d231bdd8b8c1351ba5.jpg",
+       "full": "https://i.pinimg.com/originals/66/34/bd/6634bd18bb3279d231bdd8b8c1351ba5.jpg",
+       "lic": "pinterest",
+       "pg": "https://in.pinterest.com/pin/24840235438279200/",
+       "tags": "leaf leaves drop water"
+    },
+    {
       "thumb": "https://cdn.pixabay.com/photo/2024/03/18/20/43/marigold-8641842_150.jpg",
        "full": "https://cdn.pixabay.com/photo/2024/03/18/20/43/marigold-8641842_1280.jpg",
        "lic": "pixabay",
