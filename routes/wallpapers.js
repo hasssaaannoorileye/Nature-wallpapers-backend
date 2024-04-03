@@ -29,6 +29,118 @@ function paginatedResults(model) {
 }
 const wallpapers = [
     {
+      "thumb": "https://i.pinimg.com/474x/6e/99/39/6e993954dac300f929ab818519bb8780.jpg",
+       "full": "https://i.pinimg.com/originals/6e/99/39/6e993954dac300f929ab818519bb8780.jpg",
+       "lic": "pinterest",
+       "pg": "https://in.pinterest.com/pin/13159023903631853/",
+       "tags": "cat animals minimal wallpaper"
+    },
+    {
+      "thumb": "https://i.pinimg.com/474x/a7/6e/ab/a76eabb132c1870e41ac31a61e8b0559.jpg",
+       "full": "https://i.pinimg.com/564x/a7/6e/ab/a76eabb132c1870e41ac31a61e8b0559.jpg",
+       "lic": "pinterest",
+       "pg": "https://in.pinterest.com/pin/659918151783266344/",
+       "tags": "car eyes singer sadness milky planet arttree collar funnydoor way white universecar orange foam character dc wizard bluelogs valley hydrangeas artheart k-pop singer comic pollen indonesia retro station artwaterfall lights relief liquid landscapenaruto villain green artkakashi heart beach car spacesuit macrobatman wildlife bluelogs cliff collar car man grey iosboy car frost artrobot car artcristiano wood microphone figures bubbles art chess usa natureman architecture artpath mountain whitelionel m4 sea natureporsche touch"
+    },
+    {
+      "thumb": "https://i.pinimg.com/474x/9a/de/cf/9adecf7a629047bebbe1b4c03a28d86f.jpg",
+       "full": "https://i.pinimg.com/564x/9a/de/cf/9adecf7a629047bebbe1b4c03a28d86f.jpg",
+       "lic": "pinterest",
+       "pg": "https://in.pinterest.com/pin/296252481753799703/",
+       "tags": "animals"
+    },
+    {
+      "thumb": "https://quizforfan.com/wp-content/uploads/2022/12/anml36.jpg",
+       "full": "https://quizforfan.com/wp-content/uploads/2022/12/anml36.jpg",
+       "lic": "quizforfan",
+       "pg": "https://quizforfan.com/best-68-hd-animals-wallpapers-for-mobile/",
+       "tags": "green animals grass"
+    },
+    {
+      "thumb": "https://i.pinimg.com/474x/b7/7f/6c/b77f6c69ba5168da4494815797efb358.jpg",
+       "full": "https://i.pinimg.com/564x/b7/7f/6c/b77f6c69ba5168da4494815797efb358.jpg",
+       "lic": "pinterest",
+       "pg": "https://in.pinterest.com/pin/448248969179140939/",
+       "tags": "yellow fox animals"
+    },
+    {
+      "thumb": "https://i.pinimg.com/474x/4d/cf/92/4dcf9299237282f293771efc5e823a4f.jpg",
+       "full": "https://i.pinimg.com/originals/4d/cf/92/4dcf9299237282f293771efc5e823a4f.jpg",
+       "lic": "pinterest",
+       "pg": "https://in.pinterest.com/pin/1196337402268668/",
+       "tags": "animals art wallpaper hd"
+    },
+    {
+      "thumb": "https://i.pinimg.com/474x/ea/90/d5/ea90d51215d15cf4c03cde40c6ad4281.jpg",
+       "full": "https://i.pinimg.com/564x/ea/90/d5/ea90d51215d15cf4c03cde40c6ad4281.jpg",
+       "lic": "pinterest",
+       "pg": "https://in.pinterest.com/pin/2462974790420114/",
+       "tags": "animals art wallpaper white minimal hd"
+    },
+    {
+      "thumb": "https://i.pinimg.com/474x/48/8a/13/488a1380915ac3a62ee51cb8ca2be0fd.jpg",
+       "full": "https://i.pinimg.com/originals/48/8a/13/488a1380915ac3a62ee51cb8ca2be0fd.jpg",
+       "lic": "pinterest",
+       "pg": "https://in.pinterest.com/pin/703756186815617/",
+       "tags": "animals art wallpaper white minimal hd"
+    },
+    {
+      "thumb": "https://i.pinimg.com/564x/81/88/a3/8188a350a213fa64c5884b449d14cf97.jpg",
+       "full": "https://i.pinimg.com/originals/81/88/a3/8188a350a213fa64c5884b449d14cf97.jpg",
+       "lic": "pinterest",
+       "pg": "https://in.pinterest.com/pin/9992430416492497/",
+       "tags": "beach art ai generated sun sunset wallpaper"
+    },
+    {
+      "thumb": "https://i.pinimg.com/474x/f8/36/40/f8364006e227c082377b4235df635008.jpg",
+       "full": "https://i.pinimg.com/originals/f8/36/40/f8364006e227c082377b4235df635008.jpg",
+       "lic": "pinterest",
+       "pg": "https://in.pinterest.com/pin/1055599906386063/",
+       "tags": "beach mountain popular "
+    },
+    {
+      "thumb": "https://i.pinimg.com/474x/b7/b8/73/b7b87306ab8d7e2d9fab60a87ac3cbf1.jpg",
+       "full": "https://i.pinimg.com/564x/b7/b8/73/b7b87306ab8d7e2d9fab60a87ac3cbf1.jpg",
+       "lic": "pinterest",
+       "pg": "https://in.pinterest.com/pin/10133167904746153/",
+       "tags": "art beach "
+    },
+    {
+      "thumb": "https://i.pinimg.com/474x/f8/35/3e/f8353efd8bc603c92236011e39c36827.jpg",
+       "full": "https://i.pinimg.com/originals/f8/35/3e/f8353efd8bc603c92236011e39c36827.jpg",
+       "lic": "pinterest",
+       "pg": "https://in.pinterest.com/pin/70437488529111/",
+       "tags": "night moon dark "
+    },
+    {
+      "thumb": "https://i.pinimg.com/474x/1e/99/5d/1e995d611d40f8690b9220125b8d3c9c.jpg",
+       "full": "https://i.pinimg.com/originals/1e/99/5d/1e995d611d40f8690b9220125b8d3c9c.jpg",
+       "lic": "pinterest",
+       "pg": "https://in.pinterest.com/pin/1266706139156018/",
+       "tags": "night moon dark wallpaper"
+    },
+    {
+      "thumb": "https://i.pinimg.com/474x/99/dc/cf/99dccf398cfcde954023ba6b88d542f0.jpg",
+       "full": "https://i.pinimg.com/736x/08/83/15/088315eb109ed901ef21243a7d5a7d5d.jpg",
+       "lic": "pinterest",
+       "pg": "https://in.pinterest.com/pin/23221754321958891/",
+       "tags": "night moon dark "
+    },
+    {
+      "thumb": "https://i.pinimg.com/474x/d7/b8/f9/d7b8f9f8da081dad07e5e6ae00eb4f97.jpg",
+       "full": "https://i.pinimg.com/originals/d7/b8/f9/d7b8f9f8da081dad07e5e6ae00eb4f97.jpg",
+       "lic": "pinterest",
+       "pg": "https://in.pinterest.com/pin/12666442695663806/",
+       "tags": "night dark mountains lake "
+    },
+    {
+      "thumb": "https://i.pinimg.com/474x/29/c4/f7/29c4f745b6885b546d1eb72db6cc8ec7.jpg",
+       "full": "https://i.pinimg.com/564x/29/c4/f7/29c4f745b6885b546d1eb72db6cc8ec7.jpg",
+       "lic": "pinterest",
+       "pg": "https://in.pinterest.com/pin/3659243439602092/",
+       "tags": "night dark mountains lake "
+    },
+    {
       "thumb": "https://cdn.pixabay.com/photo/2021/09/20/21/32/lake-6641880_150.jpg",
        "full": "https://cdn.pixabay.com/photo/2021/09/20/21/32/lake-6641880_1280.jpg",
        "lic": "pixabay",
