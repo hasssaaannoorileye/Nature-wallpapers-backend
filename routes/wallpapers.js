@@ -29,6 +29,230 @@ function paginatedResults(model) {
 }
 const wallpapers = [
     {
+      "thumb": "https://i.pinimg.com/474x/a7/51/09/a75109ecbbf23599f82439dc6969820d.jpg",
+       "full": "https://i.pinimg.com/564x/a7/51/09/a75109ecbbf23599f82439dc6969820d.jpg",
+       "lic": "pinterest",
+       "pg": "https://in.pinterest.com/pin/1067212442935593183/",
+       "tags": "ai art night dark"
+    },
+    {
+      "thumb": "https://i.pinimg.com/474x/a2/92/36/a29236fac3af4980bb2fb4e9ae7ec444.jpg",
+       "full": "https://i.pinimg.com/736x/a2/92/36/a29236fac3af4980bb2fb4e9ae7ec444.jpg",
+       "lic": "pinterest",
+       "pg": "https://in.pinterest.com/pin/1117737201258741021/",
+       "tags": "night dark black stars tree mountain"
+    },
+    {
+      "thumb": "https://i.pinimg.com/474x/79/7c/56/797c562be8c06c115fc13fc8f3cc54e8.jpg",
+       "full": "https://i.pinimg.com/originals/79/7c/56/797c562be8c06c115fc13fc8f3cc54e8.jpg",
+       "lic": "pinterest",
+       "pg": "https://in.pinterest.com/pin/58757970135421048/",
+       "tags": "night mountain waterfall moon popular"
+    },
+    {
+      "thumb": "https://i.pinimg.com/474x/d6/4c/8a/d64c8aa2f7a6bbe94281e9d00c147866.jpg",
+       "full": "https://i.pinimg.com/originals/d6/4c/8a/d64c8aa2f7a6bbe94281e9d00c147866.jpg",
+       "lic": "pinterest",
+       "pg": "https://in.pinterest.com/pin/950752171324687786/",
+       "tags": "animals underwater ai art"
+    },
+    {
+      "thumb": "https://i.pinimg.com/474x/bc/8c/e2/bc8ce2e16e361e7fd9766d31fe3c4522.jpg",
+       "full": "https://i.pinimg.com/originals/bc/8c/e2/bc8ce2e16e361e7fd9766d31fe3c4522.jpg",
+       "lic": "pinterest",
+       "pg": "https://in.pinterest.com/pin/322640760821172328/",
+       "tags": "tiger animals wild popular"
+    },
+    {
+      "thumb": "https://i.pinimg.com/474x/63/35/21/633521cd6307f255a632d60a06b9d67e.jpg",
+       "full": "https://i.pinimg.com/originals/63/35/21/633521cd6307f255a632d60a06b9d67e.jpg",
+       "lic": "pinterest",
+       "pg": "https://in.pinterest.com/pin/70791025386735254/",
+       "tags": "tiger animals wild popular"
+    },
+    {
+      "thumb": "https://i.pinimg.com/474x/32/ee/d9/32eed9a251a70b5dc3eaa229ac72fff6.jpg",
+       "full": "https://i.pinimg.com/originals/32/ee/d9/32eed9a251a70b5dc3eaa229ac72fff6.jpg",
+       "lic": "pinterest",
+       "pg": "https://in.pinterest.com/pin/79094537200398445/",
+       "tags": "green leaves leaf drop water wet stones popular"
+    },
+    {
+      "thumb": "https://i.pinimg.com/474x/59/b4/ce/59b4ce90602b79b3d956b87e2aa43e1c.jpg",
+       "full": "https://i.pinimg.com/originals/59/b4/ce/59b4ce90602b79b3d956b87e2aa43e1c.jpg",
+       "lic": "pinterest",
+       "pg": "https://in.pinterest.com/pin/450922981457381853/",
+       "tags": "green garden leaves popular"
+    },
+    {
+      "thumb": "https://i.pinimg.com/474x/c7/ae/5a/c7ae5a3483ece74be8e7179ff671ab79.jpg",
+       "full": "https://i.pinimg.com/originals/c7/ae/5a/c7ae5a3483ece74be8e7179ff671ab79.jpg",
+       "lic": "pinterest",
+       "pg": "https://in.pinterest.com/pin/378513543704342304/",
+       "tags": "green leaf drop wet leaves popular"
+    },
+    {
+      "thumb": "https://i.pinimg.com/474x/f5/3b/01/f53b01c46ceab41fb537fac6149da487.jpg",
+       "full": "https://i.pinimg.com/originals/f5/3b/01/f53b01c46ceab41fb537fac6149da487.jpg",
+       "lic": "pinterest",
+       "pg": "https://in.pinterest.com/pin/35465915810486924/",
+       "tags": "night lake water moon popular"
+    },
+    {
+      "thumb": "https://i.pinimg.com/474x/8f/3e/47/8f3e47484dc442731d1b708b369d2902.jpg",
+       "full": "https://i.pinimg.com/originals/8f/3e/47/8f3e47484dc442731d1b708b369d2902.jpg",
+       "lic": "pinterest",
+       "pg": "https://in.pinterest.com/pin/7036943161179647/",
+       "tags": "mountains sun popular"
+    },
+    {
+      "thumb": "https://i.pinimg.com/474x/41/e6/a2/41e6a2a2709eb42b7c0497653e76c25d.jpg",
+       "full": "https://i.pinimg.com/originals/41/e6/a2/41e6a2a2709eb42b7c0497653e76c25d.jpg",
+       "lic": "pinterest",
+       "pg": "https://in.pinterest.com/pin/774124929477119/",
+       "tags": "night water moon"
+    },
+    {
+      "thumb": "https://i.pinimg.com/474x/c7/fe/6b/c7fe6b279a57bc007c11b3b34e0c94dc.jpg",
+       "full": "https://i.pinimg.com/originals/c7/fe/6b/c7fe6b279a57bc007c11b3b34e0c94dc.jpg",
+       "lic": "pinterest",
+       "pg": "https://in.pinterest.com/pin/5066618327666650/",
+       "tags": "beach art wallpaper"
+    },
+    {
+      "thumb": "https://i.pinimg.com/474x/84/82/d1/8482d1d868954166bc62254777648237.jpg",
+       "full": "https://i.pinimg.com/originals/84/82/d1/8482d1d868954166bc62254777648237.jpg",
+       "lic": "pinterest",
+       "pg": "https://in.pinterest.com/pin/44332377576525898/",
+       "tags": "road mountain wallpaper"
+    },
+    {
+      "thumb": "https://i.pinimg.com/474x/da/da/b9/dadab9857eea3d2876f6a91d4d111dd3.jpg",
+       "full": "https://i.pinimg.com/originals/da/da/b9/dadab9857eea3d2876f6a91d4d111dd3.jpg",
+       "lic": "pinterest",
+       "pg": "https://in.pinterest.com/pin/47358233575312242/",
+       "tags": "road mountain wallpaper"
+    },
+    {
+      "thumb": "https://i.pinimg.com/474x/34/0c/36/340c36cb0b498ac6f88ec433996c2d32.jpg",
+       "full": "https://i.pinimg.com/originals/34/0c/36/340c36cb0b498ac6f88ec433996c2d32.jpg",
+       "lic": "pinterest",
+       "pg": "https://in.pinterest.com/pin/134122895146264388/",
+       "tags": "forest popular ai"
+    },
+    {
+      "thumb": "https://i.pinimg.com/474x/42/87/85/42878547ede0e36e28379706ef817f28.jpg",
+       "full": "https://i.pinimg.com/originals/42/87/85/42878547ede0e36e28379706ef817f28.jpg",
+       "lic": "pinterest",
+       "pg": "https://in.pinterest.com/pin/1970393579977942/",
+       "tags": "flowers mountains lake water wallpaper"
+    },
+    {
+      "thumb": "https://i.pinimg.com/474x/08/c3/72/08c37255f33238e2b739fa23c9b88d39.jpg",
+       "full": "https://i.pinimg.com/originals/08/c3/72/08c37255f33238e2b739fa23c9b88d39.jpg",
+       "lic": "pinterest",
+       "pg": "https://in.pinterest.com/pin/82401868175931485/",
+       "tags": "mountains lake rural love heart popular"
+    },
+    {
+      "thumb": "https://i.pinimg.com/474x/42/ee/f1/42eef152de999533ddeb0119f5442180.jpg",
+       "full": "https://i.pinimg.com/originals/42/ee/f1/42eef152de999533ddeb0119f5442180.png",
+       "lic": "pinterest",
+       "pg": "https://in.pinterest.com/pin/156711262027248814/",
+       "tags": "beach art ai generated wallpaper"
+    },
+    {
+      "thumb": "https://i.pinimg.com/474x/b7/7d/2b/b77d2b44c06fcf3f77ebea7c3f55fe29.jpg",
+       "full": "https://i.pinimg.com/736x/b7/7d/2b/b77d2b44c06fcf3f77ebea7c3f55fe29.jpg",
+       "lic": "pinterest",
+       "pg": "https://in.pinterest.com/pin/872361390311633466/",
+       "tags": "mountains landscape"
+    },
+    {
+      "thumb": "https://i.pinimg.com/474x/3a/08/fe/3a08fe66f393fa2d2912e047c2b6e095.jpg",
+       "full": "https://i.pinimg.com/originals/3a/08/fe/3a08fe66f393fa2d2912e047c2b6e095.jpg",
+       "lic": "pinterest",
+       "pg": "https://in.pinterest.com/pin/211174976174326/",
+       "tags": "landscape garden green bike"
+    },
+    {
+      "thumb": "https://i.pinimg.com/474x/8c/13/29/8c13297c755aa2dade9698e13a3b8920.jpg",
+       "full": "https://i.pinimg.com/originals/8c/13/29/8c13297c755aa2dade9698e13a3b8920.jpg",
+       "lic": "pinterest",
+       "pg": "https://in.pinterest.com/pin/9148005515621322/",
+       "tags": "landscape garden green lake rural "
+    },
+    {
+      "thumb": "https://i.pinimg.com/474x/ba/b1/a9/bab1a92d08b333df641b83eae1c79644.jpg",
+       "full": "https://i.pinimg.com/736x/ba/b1/a9/bab1a92d08b333df641b83eae1c79644.jpg",
+       "lic": "pinterest",
+       "pg": "https://in.pinterest.com/pin/973551644437440115/",
+       "tags": "Beautiful Nature Landscape mountains lake"
+    },
+    {
+      "thumb": "https://i.pinimg.com/474x/2a/04/97/2a04975c4b26f85a4013c09b5c1994ab.jpg",
+       "full": "https://i.pinimg.com/736x/2a/04/97/2a04975c4b26f85a4013c09b5c1994ab.jpg",
+       "lic": "pinterest",
+       "pg": "https://in.pinterest.com/pin/141793088261118016/",
+       "tags": "Beautiful Nature Landscape mountains popular lake"
+    },
+    {
+      "thumb": "https://i.pinimg.com/474x/98/2e/f5/982ef59aacd0739ae35256578578fcf1.jpg",
+       "full": "https://i.pinimg.com/736x/98/2e/f5/982ef59aacd0739ae35256578578fcf1.jpg",
+       "lic": "pinterest",
+       "pg": "https://in.pinterest.com/pin/294352525663361587/",
+       "tags": "nature green tree popular"
+    },
+    {
+      "thumb": "https://i.pinimg.com/474x/36/9a/bc/369abcc19c86f565fbb2c5641799697e.jpg",
+       "full": "https://i.pinimg.com/originals/36/9a/bc/369abcc19c86f565fbb2c5641799697e.jpg",
+       "lic": "pinterest",
+       "pg": "https://in.pinterest.com/pin/2462974790571079/",
+       "tags": "Many colorful birds are flying around a garden full of flowers popular"
+    },
+    {
+      "thumb": "https://i.pinimg.com/474x/b1/3b/0b/b13b0bf48e5ae5b9a7e74995af8f3af7.jpg",
+       "full": "https://i.pinimg.com/originals/b1/3b/0b/b13b0bf48e5ae5b9a7e74995af8f3af7.jpg",
+       "lic": "pinterest",
+       "pg": "https://in.pinterest.com/pin/76350156176667844/",
+       "tags": "birds beach mountain flowers"
+    },
+    {
+      "thumb": "https://i.pinimg.com/474x/cb/f6/b3/cbf6b339dc2ff520b4bc58feffe09ed5.jpg",
+       "full": "https://i.pinimg.com/originals/cb/f6/b3/cbf6b339dc2ff520b4bc58feffe09ed5.jpg",
+       "lic": "pinterest",
+       "pg": "https://in.pinterest.com/pin/2462974790324611/",
+       "tags": "lake mountains flowers water popular"
+    },
+    {
+      "thumb": "https://i.pinimg.com/474x/47/4a/2e/474a2e3c8cdba0de42def161a3eef976.jpg",
+       "full": "https://i.pinimg.com/originals/47/4a/2e/474a2e3c8cdba0de42def161a3eef976.jpg",
+       "lic": "pinterest",
+       "pg": "https://in.pinterest.com/pin/4081455905268557/",
+       "tags": "night mountains moon ai generated wallpaper"
+    },
+    {
+      "thumb": "https://i.pinimg.com/474x/b1/67/11/b167119c27c678923811940611e3f1c8.jpg",
+       "full": "https://i.pinimg.com/originals/b1/67/11/b167119c27c678923811940611e3f1c8.jpg",
+       "lic": "pinterest",
+       "pg": "https://in.pinterest.com/pin/1125968650861241/",
+       "tags": "night dark moon water"
+    },
+    {
+      "thumb": "https://i.pinimg.com/474x/6b/bb/1b/6bbb1bc1384bd328f46b93cf68c82fc0.jpg",
+       "full": "https://i.pinimg.com/originals/6b/bb/1b/6bbb1bc1384bd328f46b93cf68c82fc0.jpg",
+       "lic": "pinterest",
+       "pg": "https://in.pinterest.com/pin/290482244732072665/",
+       "tags": "night dark moon water wallpaper sky space"
+    },
+    {
+      "thumb": "https://i.pinimg.com/474x/6e/80/7e/6e807e2aaab792f33951ec82ba9f3ea0.jpg",
+       "full": "https://i.pinimg.com/originals/6e/80/7e/6e807e2aaab792f33951ec82ba9f3ea0.jpg",
+       "lic": "pinterest",
+       "pg": "https://in.pinterest.com/pin/134122895145894654/",
+       "tags": "night dark moon water wallpaper sky"
+    },
+    {
       "thumb": "https://i.pinimg.com/474x/6e/99/39/6e993954dac300f929ab818519bb8780.jpg",
        "full": "https://i.pinimg.com/originals/6e/99/39/6e993954dac300f929ab818519bb8780.jpg",
        "lic": "pinterest",
